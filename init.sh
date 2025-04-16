@@ -9,7 +9,7 @@ wget -O sgdk200.7z http://backup.dacom/sgdk/sgdk200.7z
 
 # Descompactar o arquivo
 echo "Descompactando sgdk200.7z..."
-7z x sgdk200.7z
+7z x sgdk200.7z -o"sgdk200"
 
 # Entrar na pasta sgdk200
 cd sgdk200/
