@@ -31,3 +31,10 @@ chmod +x generate_wine.sh
 # Executar o script
 echo "Executando generate_wine.sh..."
 bash generate_wine.sh
+
+# Mensagem final com instrução de uso
+echo ""
+echo ""
+echo "The following command should then be able to build any SGDK project:"
+path_sgdk=$(cd .. && pwd)
+echo "make GDK=\"$path_sgdk\" -f \"$path_sgdk\"/makefile_wine.gen"
